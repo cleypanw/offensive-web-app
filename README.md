@@ -8,4 +8,4 @@ Work in progress
 
 
 
-![HLD](docs/images/Container beacon - kubernetes attack.png)
+![HLD](docs/images/Container_beacon-kubernetes_attack.png)
