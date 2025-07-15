@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  namespace: offensive-web-app
+  name: offensive-web-app
 ---
 apiVersion: v1
 kind: ServiceAccount
@@ -52,7 +52,7 @@ spec:
     spec:
       serviceAccountName: secret-sa
       containers:
-      - image: chrisley75/offensive-web-appp:0.0.1
+      - image: chrisley75/offensive-web-app:0.0.1
         name: vul-offensive-web-app
         ports:
         - containerPort: 8080
